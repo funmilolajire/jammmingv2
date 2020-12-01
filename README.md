@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Jammming  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> A website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
 
-## Available Scripts
+## Table of contents  
 
-In the project directory, you can run:
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Features](#features)
+  - [Status](#status)
+  - [Inspiration](#inspiration)
+  - [Contact](#contact)
 
-### `yarn start`
+## General info  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ A website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account. A remake of a previous project written using class components, did this remake to practice using functional components, hooks, testing using jest and enzyme, writing code with accessibility in mind and writing a good README document.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Screenshots  
 
-### `yarn test`
+![Load Website](screenshots/onload.png)
+![Results from Search](screenshots/onSearch.png)
+![Create a new playlist and add tracks from search results](screenshots/createplaylist.png)
+![Save Playlist](screenshots/onsave.png)
+![Saved Playlist On Spotify](screenshots/savedplaylist.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies  
 
-### `yarn build`
+- "@testing-library/jest-dom": "^5.11.4"  
+- "@testing-library/react": "^11.1.0"
+- "@testing-library/user-event": "^12.1.10"
+- "base64-arraybuffer": "^0.2.0"
+- "crypto-random-string": "^3.3.0"
+- "react": "^17.0.1"
+- "react-dom": "^17.0.1"
+- "react-router-dom": "^5.2.0"
+- "react-scripts": "4.0.1"
+- "web-vitals": "^0.2.4"
+- "@wojtekmaj/enzyme-adapter-react-17": "^0.3.1"
+- "enzyme": "^3.11.0"
+- "enzyme-adapter-react-16": "^1.15.5"
+- "react-test-renderer": "^17.0.1"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Visit [Jammming](https://www.jammming.netlify.app) in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features  
 
-### `yarn eject`
+- Search Spotify Music Library
+- Listen to Audio Preview Samples of Songs
+- Create A New Playlist, Add Tracks to it and Save to your Spotify Playlists
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Status  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project is: _finished_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Inspiration  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+This project was inspired by codecademy's full stack developer path, a practice project to test react, http requests, javascript, html and css skills.
 
-## Learn More
+## Contact  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Created by [@funmilolajire](mailto:funmilolajire@gmail.com) - feel free to contact me!  

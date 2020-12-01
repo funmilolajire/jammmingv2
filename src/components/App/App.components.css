@@ -1,0 +1,110 @@
+body,
+html,
+#root {
+    height: 100%;
+}
+
+html {
+    font-size: 18px;
+}
+
+.pageLoading {
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #6c41ec;
+    background: #010c3f;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.pageLoading p {
+    white-space: nowrap;
+    overflow: hidden;
+    height: fit-content;
+}
+
+/*Animation*/
+.pageLoading p {
+    animation: animated-text 4s linear infinite alternate both,
+        animated-cursor 600ms linear infinite alternate both;
+}
+
+/* text animation */
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* cursor animations */
+
+@keyframes animated-cursor {
+    from {
+        border-right-color: #6c41ec;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+h1 {
+    padding: .77rem 0;
+    background-color: #010c3f;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.88rem;
+    color: #fff;
+}
+
+p.love {
+    background-color: #010c3f;
+    color: #fff;
+    text-align: center;
+}
+
+h1 .highlight {
+    color: #6c41ec;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.55rem;
+}
+
+.App {
+    height: 100%;
+    padding: 0 17% 10% 17%;
+    background-image: url('./background_photo_desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.App-playlist {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+    .App-playlist {
+        align-items: center;
+        flex-direction: column;
+    }
+}

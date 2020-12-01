@@ -2,7 +2,7 @@
 import axios from 'axios';
 const cryptoRandomString = require('crypto-random-string/index');
 const clientID = 'cdef731b0b1440abad772c058cf2ef89';
-const redirectURI = 'http:%2F%2Flocalhost:3000%2F'; //TODO: Change to new deployed location
+const redirectURI = 'https://jammmingv2.netlify.app/'; //TODO: Change to new deployed location
 let userAccessToken = '';
 let expiresIn = 0;
 // let pkceCode = '';

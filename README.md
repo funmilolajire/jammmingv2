@@ -44,7 +44,7 @@
 
 ## Setup  
 
-Visit [Jammming](https://www.jammming.netlify.app) in your browser.
+Visit [Jammming](https://www.jammmingv2.netlify.app) in your browser.
 
 ## Features  
 

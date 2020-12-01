@@ -19,11 +19,11 @@
 
 ## Screenshots  
 
-![Load Website](../public/screenshots/onload.png)
-![Results from Search](../public/screenshots/onSearch.png)
-![Create a new playlist and add tracks from search results](../public/screenshots/createplaylist.png)
-![Save Playlist](../public/screenshots/onsave.png)
-![Saved Playlist On Spotify](../public/screenshots/savedplaylist.png)
+![Load Website](./public/screenshots/onload.png)
+![Results from Search](./public/screenshots/onSearch.png)
+![Create a new playlist and add tracks from search results](./public/screenshots/createplaylist.png)
+![Save Playlist](./public/screenshots/onsave.png)
+![Saved Playlist On Spotify](./public/screenshots/savedplaylist.png)
 
 ## Technologies  
 
